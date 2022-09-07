@@ -1,0 +1,30 @@
+/* --- MAIN 3 --- */
+.html_container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-auto-rows: 100px auto 50px;
+  grid-template-areas: "header header" "main aside" "footer footer";
+  width: 100%;
+  height: 600px;
+}
+.html_container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.html_header {
+  grid-area: header;
+  background-color: #ccc;
+}
+.html_main {
+  grid-area: main;
+}
+.html_aside {
+  grid-area: aside;
+  background-color: paleturquoise;
+}
+.html_footer {
+  grid-area: footer;
+  background-color: #ccc;
+}
