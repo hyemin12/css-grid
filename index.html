@@ -173,6 +173,36 @@
         <div class="html_aside">aside</div>
         <div class="html_footer">footer</div>
       </div>
+
+      <div class="flex">
+        <h4 class="orange">container</h4>
+        <ul>
+          <li>grid-template-columns: 3fr, 1fr;<span class="des">// 3:1 비율의 2열</span></li>
+          <li>grid-auto-rows: 150px auto 50px;<span class="des" style="display: block;margin-left:0;padding-top:5px;">// 첫번째,3번째 행은 150px,50px로 고정, 2번째 행은 꽉차게 자동설정</span></li>
+          <li style="display: flex">
+            grid-template-areas:
+            <div style="margin-left: 10px">
+              <span class="grid-areas">"header header"</span
+              ><span class="grid-areas">"main aside"</span
+              ><span class="grid-areas" style="display:inline ;">"footer footer";</span><span class="des">// 그리드보기 참고</span>
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="grid">
+        <button class="grid_btn">그리드보기</button>
+        <div class="grid_container grid_container3 hidden">
+          <div class="grid_item">header</div>
+          <div class="grid_item">header</div>
+          <div class="grid_item">main</div>
+          <div class="grid_item">side</div>
+          <div class="grid_item">footer</div>
+          <div class="grid_item">footer</div>
+        </div>
+      </div>
     </section>
   </body>
 </html>

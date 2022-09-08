@@ -17,7 +17,7 @@ section {
   background-color: #fff;
   padding: 20px 10px;
 }
-.grid_container {
+.grid__container {
   /* px, %, fr 모두 사용 가능 */
   grid-template-columns: repeat(5, 20%);
   /* grid-template-rows: repeat(5, 100px); */
@@ -26,7 +26,7 @@ section {
   grid-auto-rows: minmax(150px, auto);
   grid-gap: 10px;
 }
-.grid_cell {
+.grid__cell {
   grid-column: 2 / 4;
   /* span : 차이할 갯수 */
   /* 끝까지 설정: -1 */
