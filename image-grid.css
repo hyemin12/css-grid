@@ -7,7 +7,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 150px;
   grid-gap: 1rem;
-  /* 이름지정 */
   grid-template-areas:
     "a a a"
     "b c c"
